@@ -19,7 +19,7 @@ int main(int argc, const char * argv[])
         
         
         
-        NSLog(@"\nMain.m has been modified");
+        NSLog(@"\nMain.m has been modified\n");
         
         HashTable *hashTable=[[HashTable alloc]init];
         hashTable->hashAddress=hashTable;
