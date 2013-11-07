@@ -10,6 +10,14 @@
 		C32D290C1795690E00010D1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32D290B1795690E00010D1D /* Foundation.framework */; };
 		C32D290F1795690E00010D1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C32D290E1795690E00010D1D /* main.m */; };
 		C32D29131795690E00010D1D /* AnimalHashTable.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C32D29121795690E00010D1D /* AnimalHashTable.1 */; };
+		C32D291B1795698B00010D1D /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = C32D291A1795698B00010D1D /* Animal.m */; };
+		C35399251796D9020004E9AF /* AnimalNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C35399241796D9020004E9AF /* AnimalNode.m */; };
+		C35399291796DE560004E9AF /* AnimalsInLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = C35399281796DE560004E9AF /* AnimalsInLinkedList.m */; };
+		C3C8FE9F17997B6200B8169A /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C8FE9E17997B6200B8169A /* Bird.m */; };
+		C3C8FEA317997CD800B8169A /* Reptile.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C8FEA217997CD800B8169A /* Reptile.m */; };
+		C3C8FEA617997F9200B8169A /* HashBucket.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C8FEA517997F9100B8169A /* HashBucket.m */; };
+		C3C8FEA9179980AE00B8169A /* HashTable.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C8FEA8179980AE00B8169A /* HashTable.m */; };
+		C3D183E71796527B002DC965 /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D183E61796527B002DC965 /* Human.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +39,22 @@
 		C32D290E1795690E00010D1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C32D29111795690E00010D1D /* AnimalHashTable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnimalHashTable-Prefix.pch"; sourceTree = "<group>"; };
 		C32D29121795690E00010D1D /* AnimalHashTable.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = AnimalHashTable.1; sourceTree = "<group>"; };
+		C32D29191795698B00010D1D /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		C32D291A1795698B00010D1D /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		C35399231796D9020004E9AF /* AnimalNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalNode.h; sourceTree = "<group>"; };
+		C35399241796D9020004E9AF /* AnimalNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalNode.m; sourceTree = "<group>"; };
+		C35399271796DE560004E9AF /* AnimalsInLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimalsInLinkedList.h; path = ../AnimalsInLinkedList.h; sourceTree = "<group>"; };
+		C35399281796DE560004E9AF /* AnimalsInLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnimalsInLinkedList.m; path = ../AnimalsInLinkedList.m; sourceTree = "<group>"; };
+		C3C8FE9D17997B6200B8169A /* Bird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bird.h; sourceTree = "<group>"; };
+		C3C8FE9E17997B6200B8169A /* Bird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bird.m; sourceTree = "<group>"; };
+		C3C8FEA117997CD800B8169A /* Reptile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reptile.h; sourceTree = "<group>"; };
+		C3C8FEA217997CD800B8169A /* Reptile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reptile.m; sourceTree = "<group>"; };
+		C3C8FEA417997F9100B8169A /* HashBucket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashBucket.h; sourceTree = "<group>"; };
+		C3C8FEA517997F9100B8169A /* HashBucket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HashBucket.m; sourceTree = "<group>"; };
+		C3C8FEA7179980AE00B8169A /* HashTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashTable.h; sourceTree = "<group>"; };
+		C3C8FEA8179980AE00B8169A /* HashTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HashTable.m; sourceTree = "<group>"; };
+		C3D183E51796527B002DC965 /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		C3D183E61796527B002DC965 /* Human.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +107,23 @@
 		C32D29101795690E00010D1D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C32D291A1795698B00010D1D /* Animal.m */,
+				C3D183E51796527B002DC965 /* Human.h */,
+				C3D183E61796527B002DC965 /* Human.m */,
+				C32D29191795698B00010D1D /* Animal.h */,
+				C35399271796DE560004E9AF /* AnimalsInLinkedList.h */,
+				C35399281796DE560004E9AF /* AnimalsInLinkedList.m */,
+				C35399231796D9020004E9AF /* AnimalNode.h */,
+				C35399241796D9020004E9AF /* AnimalNode.m */,
 				C32D29111795690E00010D1D /* AnimalHashTable-Prefix.pch */,
+				C3C8FE9D17997B6200B8169A /* Bird.h */,
+				C3C8FE9E17997B6200B8169A /* Bird.m */,
+				C3C8FEA117997CD800B8169A /* Reptile.h */,
+				C3C8FEA217997CD800B8169A /* Reptile.m */,
+				C3C8FEA417997F9100B8169A /* HashBucket.h */,
+				C3C8FEA517997F9100B8169A /* HashBucket.m */,
+				C3C8FEA7179980AE00B8169A /* HashTable.h */,
+				C3C8FEA8179980AE00B8169A /* HashTable.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +180,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C32D290F1795690E00010D1D /* main.m in Sources */,
+				C32D291B1795698B00010D1D /* Animal.m in Sources */,
+				C3D183E71796527B002DC965 /* Human.m in Sources */,
+				C35399251796D9020004E9AF /* AnimalNode.m in Sources */,
+				C35399291796DE560004E9AF /* AnimalsInLinkedList.m in Sources */,
+				C3C8FE9F17997B6200B8169A /* Bird.m in Sources */,
+				C3C8FEA317997CD800B8169A /* Reptile.m in Sources */,
+				C3C8FEA617997F9200B8169A /* HashBucket.m in Sources */,
+				C3C8FEA9179980AE00B8169A /* HashTable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +284,7 @@
 				C32D29181795690E00010D1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
